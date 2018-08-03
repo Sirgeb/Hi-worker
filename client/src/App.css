@@ -1,0 +1,45 @@
+body {
+  background: #abc;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #274a70 3px solid; }
+
+#home-section {
+  background: url(./img/bg-overlay.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .home-inner {
+    padding: 120px 0 80px 0; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 700px;
+    top: 0;
+    left: 0;
+    width: 100%; }
+  #home-section .fa {
+    color: #274a70; }
+  #home-section .hr {
+    border: 0.5px solid white; }
+
+/* Extra Small devices */
+@media (min-width: 320px) {
+  .display-4 {
+    font-size: 22px; } }
+/* Small devices (landscape phones) */
+@media (min-width: 576px) {
+  .display-4 {
+    font-size: 28px; } }
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 34px; } }
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+  .display-4 {
+    font-size: 40px; } }
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 56px; } }
